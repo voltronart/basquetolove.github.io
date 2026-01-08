@@ -1,7 +1,4 @@
- 
-        /* --- JavaScript: A Lógica --- */
-
-        const bola = document.getElementById('bolaBasquete');
+const bola = document.getElementById('bolaBasquete');
         const rede = document.getElementById('redeBasquete');
         const mensagem = document.getElementById('mensagemFinal');
         const cena = document.querySelector('.cena');
@@ -77,4 +74,4 @@
                     particula.remove();
                 }, duracao * 1000);
             }
-     
+        }
